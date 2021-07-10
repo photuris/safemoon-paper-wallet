@@ -1,0 +1,100 @@
+div#paper_wallet {
+  position: relative;
+  display: block;
+  float: none;
+  margin: auto;
+  width: 1610px !important;
+}
+
+img#paper_img {
+  width: 1610px;
+}
+
+img#private_qr {
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: 510px;
+  left: 45px;
+  width: 380px;
+  height: 380px;
+}
+
+img#public_qr {
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: 510px;
+  left: 1190px;
+  width: 380px;
+  height: 380px;
+}
+
+#svg_private_key {
+  font-family: Consolas, "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 18px;
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 150;
+  top: 1136px;
+  width: 800px;
+  height: 30px;
+  left: 452px;
+  transform-origin: top left;
+  transform: rotate(-90deg);
+}
+
+.seed_phrase {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 150;
+  width: 400px;
+  height: 200px;
+  left: 30px;
+}
+
+#seed_phrase_1 {
+  top: 820px;
+}
+
+#seed_phrase_2 {
+  top: 860px;
+}
+
+#seed_phrase_3 {
+  top: 900px;
+}
+
+#seed_phrase_4 {
+  top: 940px;
+}
+
+#seed_phrase_5 {
+  top: 980px;
+}
+
+#seed_phrase_6 {
+  top: 1020px;
+}
+
+#svg_public_address {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 150;
+  width: 580px;
+  height: 75px;
+  top: 510px;
+  left: 510px;
+}

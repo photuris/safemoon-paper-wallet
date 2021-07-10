@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'a Atmospheric Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('a Atmospheric Regular'), url('assets/aAtmospheric.woff') format('woff');
+}
+
+body {
+  background-color: #141719 !important;
+  color: #e4ded6;
+  margin: 0px;
+  padding: 0px;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin: 0px;
+}
+
+div#header {
+  background-color:#00a89d;
+  font-size: 3.25vw;
+  margin: 0px !important;
+  padding: 14px !important;
+  font-family: 'a Atmospheric Regular';
+}
+
+div#content {
+  padding-top: 32px;
+}

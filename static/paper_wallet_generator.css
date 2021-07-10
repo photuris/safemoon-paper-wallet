@@ -1,0 +1,147 @@
+h1, h2 {
+  font-weight: normal;
+}
+
+button {
+  margin-bottom: 32px;
+}
+
+#spinner {
+  display: none;
+}
+
+.inactive {
+  display: none !important;
+}
+
+.active {
+  display: block !important;
+}
+
+label {
+  margin: 7px 14px;
+}
+
+div.generated {
+  font-family: Consolas, "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #00bcff;
+  margin-bottom: 28px;
+  padding: 7px;
+  display: block;
+  border: 1px solid #aaaaaa;
+  white-space: pre-line;
+}
+
+div#private_key {
+  text-align: center !important;
+}
+
+div#mnemonic {
+  text-align: center !important;
+}
+
+div#paper_wallet {
+  position: relative;
+  display: block;
+  float: none;
+  margin: auto;
+  width: 512px !important;
+}
+
+img#paper_img {
+  width: 512px;
+}
+
+img#private_qr {
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: 165px;
+  left: 18px;
+  width: 114px;
+  height: 114px;
+}
+
+img#public_qr {
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 100;
+  top: 140px;
+  left: 390px;
+  width: 114px;
+  height: 114px;
+}
+
+#svg_private_key {
+  font-family: Consolas, "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 5.5px;
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 150;
+  top: 355px;
+  width: 220px;
+  height: 16px;
+  left: 130px;
+  transform-origin: top left;
+  transform: rotate(-90deg);
+}
+
+.seed_phrase {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 5.5px;
+  font-weight: bold;
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 150;
+  width: 120px;
+  height: 18px;
+  left: 20px;
+}
+
+#seed_phrase_1 {
+  top: 285px;
+}
+
+#seed_phrase_2 {
+  top: 295px;
+}
+
+#seed_phrase_3 {
+  top: 305px;
+}
+
+#seed_phrase_4 {
+  top: 315px;
+}
+
+#seed_phrase_5 {
+  top: 325px;
+}
+
+#seed_phrase_6 {
+  top: 335px;
+}
+
+#svg_public_address {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 5.5px;
+  float: none;
+  display: block;
+  position: absolute;
+  z-index: 150;
+  width: 220px;
+  height: 16px;
+  top: 150px;
+  left: 160px;
+}
+
+a {
+  color: #42b983;
+}
