@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "node server.js",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
@@ -19,6 +19,7 @@
     "bootstrap-vue": "^2.21.2",
     "entropy-collector": "^0.0.1",
     "ethereumjs-util": "^7.0.10",
+    "express": "^4.17.1",
     "qrious": "^4.0.2",
     "seedrandom": "^3.0.5",
     "vue": "^2.5.2",
