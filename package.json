@@ -10,9 +10,11 @@
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit",
+    "serve": "vue-cli-service serve",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@vue/cli-service": "^4.5.13",
     "bip32": "^2.0.6",
     "bip39": "^3.0.4",
     "bootstrap": "^5.0.2",
@@ -23,7 +25,6 @@
     "qrious": "^4.0.2",
     "seedrandom": "^3.0.5",
     "vue": "^2.5.2",
-    "vue-html-to-paper": "^1.4.3",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

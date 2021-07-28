@@ -141,7 +141,21 @@ export default {
      * Print generated paper wallet.
      */
     print_wallet: async function (event) {
-      await this.$htmlToPaper('paper_wallet')
+      var divContents = document.getElementById('paper_wallet').innerHTML
+      var a = window.open('', '', 'height=500, width=500')
+      a.document.write(`
+        <html>
+        <link
+          rel="stylesheet"
+          href="./static/paper_wallet_generator_print.css"
+        >
+        <body>
+          ${divContents}
+        </body>
+        </html>
+      `)
+      a.document.close()
+      a.print()
     },
     /**
      * Generate Private key, Public Address, Seed words, and
